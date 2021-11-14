@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="750dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/street3_"
+            android:text="CODE.ALL"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="316dp"
+            android:layout_height="237dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/kisspng_programmer_computer_programming_laptop_professiona_architectural_engineer_vector_material_5ad9edb20c2c80_1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Easy and Fun Code learning"
+            android:textSize="48sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/street3_"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:text="Upgrade your  programming skills with CODE.ALL"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/roboto_light"
+            android:layout_marginTop="20dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dots"
+            android:layout_marginTop="140dp"/>
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@id/ll1"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:textColor="@color/green"
+        android:layout_marginStart="30dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/street3_"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/arrow_3"
+        android:layout_marginStart="280dp"/>
+
+
+
+
+</LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
